@@ -1,0 +1,40 @@
+.chat-box, .info-content {
+    display: none;
+}
+
+#profile {
+    grid-column: span 12;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box:last-child {
+    margin-bottom: 10px;
+}
+
+.profile-title {
+    position: fixed !important;
+    width: 100%;
+    height: 80px;
+    background: #f1f6fb;
+    margin-left: -30px;
+    padding-left: 30px;
+    margin-top: -25px;
+    display: flex;
+    align-items: center;
+}
+
+.side-menu__content__link:nth-child(4) {
+    color: #3a8df5;
+}
+
+.side-menu__content__link:nth-child(4)::before {
+    content: "" !important;
+    opacity: 1;
+    width: 6%;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    margin-left: 47%;
+}
